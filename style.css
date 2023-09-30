@@ -1,0 +1,74 @@
+#asia{
+    background: linear-gradient(grey,#262626,black);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    height: 700px;
+    width: 700px;
+}
+#africa{
+    background: linear-gradient(grey,#262626,black);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#antartica{
+    background: linear-gradient(grey,#262626,black);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#austrailia{
+    background: linear-gradient(grey,#262626,black);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#europe{
+    background: linear-gradient(grey,#262626,black);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+/*NAVBAR*/
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: lightblue;
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+.navbar ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+.navbar ul li a:hover{
+    color: #3498db;
+}
